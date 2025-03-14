@@ -1,4 +1,4 @@
-# Xcrypt High security file encryption. 
+# Xcrypt XChaCha20-Poly1305 High security file encryption. 
 
 VERY special app, lots of care went into it. This is made for LINUX to ensure that atomic file overwrite is reliable. (windows needs slightly different code)
 
@@ -12,9 +12,9 @@ see /docs
 
 Authenticated Encryption with Associated Data (AEAD) algorithms provide both confidentiality and integrity for data. This document compares three modern AEAD schemes in terms of their cryptographic strength and resistance to attacks. The schemes under consideration are:
 
-1. **AES-GCM (AES in Galois/Counter Mode)**
+3. **AES-GCM (AES in Galois/Counter Mode)**
 2. **XChaCha20-Poly1305**
-3. **AES-GCM-SIV**
+1. **AES-GCM-SIV**
 
 Below, each algorithm is discussed in detail, covering the encryption process, key management, security features, and resistance to known attack vectors. Finally, a ranking is provided—from 1 (strongest) to 3 (least strong)—based on both theoretical strength and real-world security considerations.
 
